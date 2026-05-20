@@ -36,7 +36,7 @@ export function take<T>(count: number) {
 
       source.subscribe(subscriber);
 
-      // Finalization logic — runs on error, complete, or unsubscribe
+      // Finalization logic - runs on error, complete, or unsubscribe
       return () => subscriber.unsubscribe();
     });
 }
