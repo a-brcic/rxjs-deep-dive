@@ -1,6 +1,6 @@
 # RxJS Deep Dive
 
-A collection of custom RxJS implementations built to understand how RxJS works under the hood — not just how to use it, but how it's actually built.
+A collection of custom RxJS implementations built to understand how RxJS works under the hood - not just how to use it, but how it's actually built.
 
 ## Why this repo?
 
