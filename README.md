@@ -4,11 +4,11 @@ A collection of custom RxJS implementations built to understand how RxJS works u
 
 ## Why this repo?
 
-Using RxJS operators is one thing. Understanding what happens inside them — how subscribers are created, closed, and cleaned up — is another level entirely. These examples are built from scratch to explore those internals.
+Using RxJS operators is one thing. Understanding what happens inside them - how subscribers are created, closed, and cleaned up - is another level entirely. These examples are built from scratch to explore those internals.
 
 ## Examples
 
-### `take` — Custom implementation
+### `take` - Custom implementation
 A from-scratch reimplementation of RxJS's `take()` operator, exploring:
 - How `Subscriber` and `Observable` work internally
 - How closing a subscriber stops upstream emission
